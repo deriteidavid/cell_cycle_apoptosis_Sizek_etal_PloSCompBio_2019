@@ -1,0 +1,15 @@
+UbcH10 *= not Cdh1 or (UbcH10 and Cdc20) or (UbcH10 and CyclinB) or (UbcH10 and CyclinA)
+Cdh1 *= (not Emi1 and not Cdk1 and not Cdc25A) or (not CyclinB and not CyclinA) or (not Emi1 and not CyclinB and not Cdc25A) or (not CyclinA and not Cdk1)
+CyclinA_mRNA *= FoxM1
+Cdc25A *= (CyclinB and Cdk1 and not Cdh1) or (FoxM1 and CyclinB and Cdk1) or (CyclinA and not Cdh1) or (FoxM1 and CyclinA)
+Cdk1 *= not Wee1 and CyclinB and Cdk1 and Cdc25C
+Cdc25C *= (Plk1 and Cdc25B) or (Plk1 and CyclinB and Cdk1)
+Cdc20 *= (pAPC and not Emi1 and not CyclinA and not Cdk1 and not Cdh1) or (pAPC and not Emi1 and not CyclinB and not CyclinA and not Cdh1)
+Emi1 *= not Plk1 or not CyclinB or not Cdk1
+pAPC *= (Plk1 and CyclinB and Cdk1) or (pAPC and Cdc20) or (pAPC and CyclinB and Cdk1)
+Wee1 *= not Cdk1 or (not CyclinB and not CyclinA) or (not Plk1 and not CyclinB)
+CyclinB *= (FoxM1 and not Cdh1 and not Cdc20) or (not pAPC and FoxM1 and not Cdh1) or (not pAPC and CyclinB and not Cdh1) or (CyclinB and not Cdh1 and not Cdc20)
+Plk1 *= (FoxM1 and CyclinB and Cdk1 and not Cdh1) or (not Wee1 and FoxM1 and CyclinA and not Cdh1 and Cdc25A)
+Cdc25B *= FoxM1
+CyclinA *= (not pAPC and not UbcH10 and Emi1 and CyclinA_mRNA and CyclinA) or (not pAPC and CyclinA_mRNA and not Cdh1 and Cdc25A) or (not pAPC and Emi1 and CyclinA_mRNA and CyclinA and not Cdh1) or (not pAPC and not UbcH10 and CyclinA_mRNA and CyclinA and not Cdh1) or (not pAPC and Emi1 and CyclinA_mRNA and Cdc25A)
+FoxM1 *= (CyclinA and Cdc25B and Cdc25A) or (Plk1 and CyclinB and Cdk1)

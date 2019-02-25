@@ -1,0 +1,8 @@
+p110_H *= (p110_H and not NeddL4) or (p110_H and FoxO3) or (not NeddL4 and FoxO3)
+FoxO3 *= not AKT_H
+PI3K_H *= p110_H
+NeddL4 *= IP3 and Ca2
+IP3 *= PLCgamma
+PLCgamma *= p110_H and PI3K_H
+Ca2 *= IP3
+AKT_H *= p110_H and PI3K_H

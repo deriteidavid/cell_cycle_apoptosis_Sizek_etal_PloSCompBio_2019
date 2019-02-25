@@ -1,0 +1,5 @@
+Pre_RC *= ORC and Cdt1 and Cdc6
+Cdt1 *= Pre_RC and ORC and Cdc6
+ORC *= Pre_RC and Cdt1 and Cdc6
+Cdc6 *= Pre_RC and ORC and Cdt1 and Cdc6
+

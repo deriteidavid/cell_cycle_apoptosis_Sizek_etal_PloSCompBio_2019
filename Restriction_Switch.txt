@@ -1,0 +1,7 @@
+E2F1 *= (not pRB and E2F1) or (not pRB and Myc)
+CyclinD1 *= (not p21 and Myc) or (not pRB and Myc and E2F1) or (not p21 and E2F1) or (not pRB and E2F1 and CyclinD1)
+p21 *= not CyclinE
+Myc *= not pRB and E2F1
+CyclinE *= not pRB and not p27Kip1 and E2F1
+pRB *= (p27Kip1 and not CyclinD1) or (not CyclinE and not CyclinD1)
+p27Kip1 *= not CyclinE and not CyclinD1

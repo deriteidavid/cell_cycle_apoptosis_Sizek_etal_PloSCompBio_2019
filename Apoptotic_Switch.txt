@@ -1,0 +1,17 @@
+#BOOLEAN RULES
+Casp9 *= Casp3 or (not IAPs and Cyto_C)
+IAPs *= not SMAC
+Casp2 *= Casp3
+BID *= Casp8 or (not MCL_1 and Casp2 and not BCLXL and not BCL2)
+Casp3 *= (Casp9 and Casp8) or (Casp9 and Casp3) or (Casp8 and Casp3) or (not IAPs and Casp9) or (not IAPs and Casp8) or (not IAPs and Casp3)
+MCL_1 *= not Casp3 and not Casp2
+BAK *= (not MCL_1 and BIM and not BCLXL) or (BID and not BCL2) or (BID and not BCLXL) or (not MCL_1 and BID) or (not MCL_1 and BIK and not BCLXL) or (BIM and BID) or (BIK and BID)
+SMAC *= BAX or BAK
+Casp8 *= Casp3
+BIK *= not MCL_1 and not BCLXL and not BCL2
+BCLXL *= (not Casp3 and not BAD) or (not Casp3 and BCL2)
+Cyto_C *= BAX or BAK
+BIM *= not MCL_1 and not BCLXL and not BCL2
+BAD *= Casp8 or Casp3
+BCL2 *= (MCL_1 and not Casp3 and not BIM and not BIK and not BAD) or (not Casp3 and not BIM and not BIK and BCLXL and not BAD)
+BAX *= (BIM and not BCLXL) or (BIK and not BCLXL and not BCL2) or (BID and not BCLXL and not BCL2) or (BIM and BID) or (BIM and BIK) or (BIM and not BCL2) or (not MCL_1 and BIM)

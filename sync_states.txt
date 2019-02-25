@@ -1,0 +1,32 @@
+*** transitions from 65 ***
+T=0: 65->65
+*** transitions from 66 ***
+T=0: 66->65
+*** transitions from 67 ***
+T=0: 67->65
+*** transitions from 68 ***
+T=0: 68->65
+*** transitions from 69 ***
+T=0: 69->65
+*** transitions from 70 ***
+T=0: 70->65
+*** transitions from 71 ***
+T=0: 71->65
+*** transitions from 72 ***
+T=0: 72->65
+*** transitions from 73 ***
+T=0: 73->65
+*** transitions from 74 ***
+T=0: 74->65
+*** transitions from 75 ***
+T=0: 75->65
+*** transitions from 76 ***
+T=0: 76->69
+*** transitions from 77 ***
+T=0: 77->65
+*** transitions from 78 ***
+T=0: 78->67
+*** transitions from 79 ***
+T=0: 79->66
+*** transitions from 80 ***
+T=0: 80->80
