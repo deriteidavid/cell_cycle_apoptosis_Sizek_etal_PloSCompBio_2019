@@ -11,9 +11,9 @@ Herbert Sizek<sup>1,#a</sup>, Andrew Hamel<sup>1,#b</sup>, Dávid Deritei<sup>2,
 <sup>*</sup> - Corresponding author<br>
 <br>
 
-The **SI_notebook.ipynb** Jupyter Notebook contains the steps and procedures to reproduce the key findings in our paper (in press).
+The **SI_notebook.ipynb** Jupyter Notebook contains the steps and procedures to reproduce the key findings of our paper (in press).
 The notebook doesn't reproduce *all* the results published in the paper, however it provides almost all tools for anyone interested in doing similar studies, mostly in forms of functions.
-We are updating it with new implementations as soon as we have them.
+We will keep updating it with new implementations as soon as we have them.
 
 The Boolean models and supporting files are included in the repository. 
 
